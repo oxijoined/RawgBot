@@ -1,0 +1,5 @@
+.idea/
+*.json
+params.env
+.env
+*.pyc
