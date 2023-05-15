@@ -56,7 +56,7 @@ def format_alternative_names(alternative_names: List[str]) -> str:
 def format_genres(genres: List[Genre]) -> str:
     if not genres:
         return '\n\n'
-    joined = ', '.join([translate_text(genre.name) for genre in genres])
+    joined = ', '.join([genre.name for genre in genres])
     return f'{joined}\n\n'
 
 
